@@ -1,0 +1,19 @@
+public class Personalprofileprinter {
+  public static void main(String[] args) {
+    int age = 19;
+    double height = 1.54;
+    char initial = 'M';
+    boolean isStudent = true;
+
+    String fullname = "Angelica Jollette M. Gregorio";
+
+
+    System.out.println("PERSONAL PROFILE");
+     System.out.println("Full name: " + fullname);
+     System.out.println("Age: " + age);
+     System.out.println("Height: " + height);
+     System.out.println("Initial: " + initial);
+     System.out.println("Student status: " + isStudent);
+
+   }
+}
