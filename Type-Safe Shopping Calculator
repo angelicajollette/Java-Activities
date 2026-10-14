@@ -1,7 +1,16 @@
 public class typesafeShoppingCalculator {
-  public static void main(String{] args {
+  public static void main(String[] args) {
 
-    int quantity = 
-    double price =
+    int quantity = 6;
+    double unitPrice = 39.79;
 
-    String 
+    String storeName = "Muffy";
+
+    totalCost = quantity * unitPrice;
+
+    System.out.println("Store Name: " + storeName);
+    System.out.println("Quantity: " + quantity);
+    System.out.println("Unit price: " + unitPrice);
+    System.out.println("Total: " + totalCost);
+  }
+}
