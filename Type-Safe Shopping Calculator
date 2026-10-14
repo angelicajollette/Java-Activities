@@ -1,5 +1,5 @@
 public class typesafeShoppingCalculator {
-  public static void (String{] args {
+  public static void main(String{] args {
 
     int quantity = 
     double price =
