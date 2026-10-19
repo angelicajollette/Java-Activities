@@ -14,3 +14,5 @@ public class typesafeShoppingCalculator {
     System.out.println("Total: " + totalCost);
   }
 }
+
+Total cost should not be declared as an int because the unitprice is declared as double
