@@ -1,2 +1,27 @@
-public class OverflowReferenceInvestigator {
-  public static void main (String[] args) {
+public class Main {
+    public static void main(String[] args) {
+
+        byte number = 127;
+        number++;
+
+        System.out.println("After overflow: " + number);
+
+        String a = new String("i love you");
+        String b = new String("i love you");
+        String c = "i love you";
+
+        System.out.println("a == b: " + (a == b));
+        System.out.println("a.equals(b): " + a.equals(b));
+
+        System.out.println("a == c: " + (a == c));
+        System.out.println("a.equals(c): " + a.equals(c));
+
+        int[] first = {10, 20, 30};
+        int[] second = first;
+
+        second[0] = 99;
+
+        System.out.println("First array: " + first[0]);
+        System.out.println("Second array: " + second[0]);
+    }
+}
