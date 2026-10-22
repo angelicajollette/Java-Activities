@@ -28,3 +28,4 @@ public class Main
         
 	}
 }
+ Widening change whole number into a decimal number automatically. while, narrowing change decimal number into a whole number and removing the decimal part
